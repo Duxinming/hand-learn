@@ -1,0 +1,114 @@
+/* 通用样式 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main>div {
+    float: left;
+}
+
+.left {
+    width: 30vh;
+    margin-left: -100%;
+}
+
+.right {
+    width: 30vh;
+    margin-left: -30vh;
+}
+
+.middle {
+    width: 100%;
+}
+
+.content {
+    margin-left: 30vh;
+    margin-right: 30vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.background {
+    height: 30vh;
+    width: 100vw;
+}
+
+.all_box {
+    height: 30vh;
+    width: 30vh;
+    border: 5px solid black;
+    border-radius: 10px;
+    display: flex;
+}
+
+.all_point {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    background-color: red;
+}
+
+.all_inner {
+    height: 50px;
+    width: 30vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner_around {
+    justify-content: space-around;
+}
+
+.inner_end {
+    align-self: flex-end;
+}
+
+.center {
+    align-self: center;
+}
+
+.end {
+    align-self: flex-end;
+}
+
+/* 点一 */
+
+.point_1 {
+    justify-content: center;
+    align-items: center;
+}
+
+/* 点二 */
+
+.point_2 {
+    justify-content: space-between;
+}
+
+/* 点三 */
+
+.point_3 {
+    justify-content: space-between;
+}
+
+/* 点四 */
+
+.point_4 {
+    flex-wrap: wrap;
+}
+
+/* 点五 */
+
+.point_5 {
+    flex-direction: column;
+    justify-content: space-between
+}
+
+/* 点六 */
+
+.point_6 {
+    flex-direction: column;
+    justify-content: space-between
+}
